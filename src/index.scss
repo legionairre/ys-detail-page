@@ -1,0 +1,26 @@
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/assests/fonts/OpenSans-Regular.ttf');
+  src: local('Open Sans'), local('OpenSans')
+}
+
+@font-face {
+  font-family: 'HelveticaNeue';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/assests/fonts/Helvetica Neue Medium Extended.ttf');
+  src: local('HelveticaNeue'), local('HelveticaNeue')
+}
+
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+.right-side-container {
+  margin-left: 11px;
+}
+
+

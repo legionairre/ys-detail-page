@@ -1,6 +1,8 @@
+$menu-header-border-color: #e5e5e5;
+
 .menu-header {
   background: rgba(239, 239, 239, 0.0001);
-  border: 1px solid #E5E5E5;
+  border: 1px solid $menu-header-border-color;
   box-sizing: border-box;
   border-radius: 2px 2px 0 0;
   font-family: HelveticaNeue, sans-serif;

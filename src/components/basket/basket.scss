@@ -1,10 +1,9 @@
-$basket-background: #FFFFFF;
-$basket-border-color: #DCDCDC;
-$basket-header-background: #9D201A;
-$basket-header-color: #FFFFFF;
-$basket-address-background: #F5D66F;
+$basket-background: #ffffff;
+$basket-border-color: #dcdcdc;
+$basket-header-background: #9d201a;
+$basket-header-color: #ffffff;
+$basket-address-background: #f5d66f;
 $basket-address-color: #000000;
-
 
 .basket-container {
   width: 239px;
@@ -64,8 +63,8 @@ $basket-address-color: #000000;
 .basket-product-input {
   width: 27px;
   height: 20px;
-  background: #FFFFFF;
-  border: 1px solid #DCDCDC;
+  background: $basket-background;
+  border: 1px solid $basket-border-color;
   box-sizing: border-box;
   box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.258823);
   border-radius: 2px;
@@ -101,34 +100,4 @@ $basket-address-color: #000000;
 
 .total-price {
   margin-right: 23px;
-}
-
-.delete {
-  position: absolute;
-  right: 32px;
-  top: 32px;
-  width: 32px;
-  height: 32px;
-  opacity: 0.3;
-}
-
-.delete:hover {
-  opacity: 1;
-}
-
-.delete:before, .delete:after {
-  position: absolute;
-  left: 15px;
-  content: ' ';
-  height: 33px;
-  width: 2px;
-  background-color: #333;
-}
-
-.delete:before {
-  transform: rotate(45deg);
-}
-
-.delete:after {
-  transform: rotate(-45deg);
 }

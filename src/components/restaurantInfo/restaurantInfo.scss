@@ -1,24 +1,34 @@
+$restaurant-text-black: #000000;
+$restaurant-text-white: #ffffff;
+$restaurant-delivery-border: #ec9922;
+$restaurant-badge-background: #abc44c;
+
 .info-container {
   position: relative;
   width: 746px;
   height: 153px;
-  background: linear-gradient(272.15deg, #F8F9FA 1.81%, rgba(248, 249, 250, 0.0001) 1.84%, #EFF0F2 89.87%);
+  background: linear-gradient(
+                  272.15deg,
+                  #f8f9fa 1.81%,
+                  rgba(248, 249, 250, 0.0001) 1.84%,
+                  #eff0f2 89.87%
+  );
 }
 
 .restaurant-info-name {
-  font-family: 'OpenSans', sans-serif;
+  font-family: "OpenSans", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
   line-height: 22px;
-  color: #000000;
+  color: $restaurant-text-black;
   position: absolute;
   top: 22px;
   left: 100px;
 }
 
 .restaurant-super-delivery {
-  border: 0.5px solid #EC9922;
+  border: 0.5px solid $restaurant-delivery-border;
   box-sizing: border-box;
   border-radius: 2px;
   position: absolute;
@@ -35,7 +45,7 @@
   position: absolute;
   top: 60px;
   left: 150px;
-  background: #ABC44C;
+  background: $restaurant-badge-background;
   border-radius: 2px;
 }
 
@@ -45,7 +55,7 @@
   position: absolute;
   top: 60px;
   left: 200px;
-  background: #ABC44C;
+  background: $restaurant-badge-background;
   border-radius: 2px;
 }
 
@@ -55,28 +65,28 @@
   position: absolute;
   top: 60px;
   left: 250px;
-  background: #ABC44C;
+  background: $restaurant-badge-background;
   border-radius: 2px;
 }
 
 .restaurant-badge-content {
-  font-family: 'OpenSans', sans-serif;
+  font-family: "OpenSans", sans-serif;
   font-style: normal;
   font-size: 12px;
   line-height: 16px;
   text-align: center;
-  color: #FFFFFF;
+  color: $restaurant-text-white;
   margin-top: 5px;
 }
 
 .restaurant-point {
-  font-family: 'OpenSans', sans-serif;
+  font-family: "OpenSans", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
   line-height: 22px;
   text-align: center;
-  color: #FFFFFF;
+  color: $restaurant-text-white;
 }
 
 .min-price-container {
@@ -91,7 +101,7 @@
   font-weight: normal;
   font-size: 10px;
   line-height: 14px;
-  color: #000000;
+  color: $restaurant-text-black;
 }
 
 .info-value {
@@ -100,7 +110,7 @@
   font-weight: bold;
   font-size: 10px;
   line-height: 14px;
-  color: #000000;
+  color: $restaurant-text-black;
 }
 
 .delivery-time-container {

@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import './menuContainer.scss';
 import menuData from '/assests/data/menuData.json';
 import Menu from './menu/menu';
 import { useDispatch } from 'react-redux';

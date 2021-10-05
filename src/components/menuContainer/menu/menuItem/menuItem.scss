@@ -1,6 +1,12 @@
+$menu-item-border-color: #e5e5e5;
+$menu-item-input-background: #ffffff;
+$menu-item-input-border-color: #dcdcdc;
+$menu-item-plus-button-background: #48912a;
+$menu-item-product-text-color: #ff6508;
+
 .menu-item-container {
   background: rgba(239, 239, 239, 0.0001);
-  border: 1px solid #E5E5E5;
+  border: 1px solid $menu-item-border-color;
   box-sizing: border-box;
   height: 74px;
   width: 100%;
@@ -9,8 +15,8 @@
 .menu-item-input {
   width: 27px;
   height: 20px;
-  background: #FFFFFF;
-  border: 1px solid #DCDCDC;
+  background: $menu-item-input-background;
+  border: 1px solid $menu-item-input-border-color;
   box-sizing: border-box;
   box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.258823);
   border-radius: 2px;
@@ -26,7 +32,7 @@
 .plus-btn {
   width: 30px;
   height: 20px;
-  background: #48912A;
+  background: $menu-item-plus-button-background;
   border-radius: 2px;
   outline: none;
   border: none;
@@ -34,18 +40,18 @@
 }
 
 .product-name {
-  font-family: 'OpenSans', sans-serif;
+  font-family: "OpenSans", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 11px;
   line-height: 15px;
-  color: #FF6508;
+  color: $menu-item-product-text-color;
   margin: 13px 0 0 5px;
   cursor: pointer;
 }
 
 .product-description {
-  font-family: 'OpenSans', sans-serif;
+  font-family: "OpenSans", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 11px;
@@ -56,13 +62,13 @@
 }
 
 .product-price {
-  font-family: 'OpenSans', sans-serif;
+  font-family: "OpenSans", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 11px;
   line-height: 15px;
   text-align: right;
-  color: #FF6508;
+  color: $menu-item-product-text-color;
   margin: 13px 15px;
   flex-grow: 1;
 }

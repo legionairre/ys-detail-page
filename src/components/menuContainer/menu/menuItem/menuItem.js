@@ -24,7 +24,7 @@ const MenuItem = ({ product }) => {
   const addToBasket = () => {
     dispatch({
       type: actionTypes.ADD_TO_CART,
-      payload: product
+      payload: { ...product, qty: value }
     });
     setValue(1);
   };

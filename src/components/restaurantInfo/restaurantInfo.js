@@ -6,7 +6,6 @@ import MinPriceSVG from 'assests/images/min-icon.svg';
 import DeliverySVG from 'assests/images/motor.svg';
 
 const RestaurantInfo = () => {
-  console.log(restaurantData);
   const [name] = useState(restaurantData.d.ResultSet.DisplayName);
   const [serving] = useState(restaurantData.d.ResultSet.Serving);
   const [speed] = useState(restaurantData.d.ResultSet.Speed);
